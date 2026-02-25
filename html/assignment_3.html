@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="submit.html" method="get">
+    <fieldset>
+            <legend>Information</legend>
+        <div>
+            <label >fullname</label>
+            <input type="text" name="fullname" id="fullname" placeholder="firstname_lastname" required>
+        </div>
+        <div>
+            <label>about yourself</label>
+            <textarea cols="50" rows="5" required></textarea>
+        </div>
+        <div>
+            <label>email</label>
+            <input type="email" name="email" id="email" required >
+        </div>
+        <div>
+            <label>password</label>
+            <input type="password" name="password" id="password" minlength="8" required>
+        </div>
+        <div>
+            <label>phone number</label>
+            <input type="tel" name="phone" id="phone" maxlength="10" pattern="[0-9]{10}" required>
+        </div>
+        <div>
+            <label>website</label>
+            <input type="url" name="website">
+        </div>
+        <div>
+            <label>skills</label>
+            <select name="skills" required>
+                <option value="html" selected>html</option>
+                <option value="css">css</option>
+                <option value="javascript">javascript</option>
+            </select>
+        </div>
+        <div>
+            <label>gender</label>
+            <input type="radio" name="gender" value="male" checked>male
+            <input type="radio" name="gender" value="female">female
+        </div>
+        <div>
+            <label>preferred colour</label>
+            <input type="color" name="color" value="#ff0000">
+        </div>
+        <div>
+            <label>experience</label>
+            <input type="range" name="experience" min="0" >
+        </div>
+        <div>
+            <label>search interest</label>
+            <input type="search" name="search" placeholder="search here">
+        </div>
+        <div>
+            <label>date of birth</label>
+            <input type="date" name="dob" max="2005-01-01">
+        </div>
+        <div>
+            <label>available time</label>
+            <input type="time" name="time" max="18:00" min="09:00">
+        </div>
+        <div>
+            <label>joining month</label>
+            <input type="month" name="joining_month" value="2026-01">
+        </div>
+        <div>
+            <label>trainig week</label>
+            <input type="week" name="training_week" value="2026-W07" disabled>
+        </div>
+        <div>
+            <label>Interview Slot</label>
+            <input type="datetime-local" name="interview_slot">
+        </div>
+        <div>
+            <label>Technology</label>
+            <input type="checkbox" name="tech" value=".net"> .Net
+            <input type="checkbox" name="tech" value="angular"> Angular
+            <input type="checkbox" name="tech" value="java"> Java
+            <input type="checkbox" name="tech" value="reactjs"> ReactJS
+            <input type="checkbox" name="tech" value="qa"> QA
+        </div>
+        <div>
+            <label>upload resume</label>
+            <input type="file" name="resume" accept=".pdf,.doc,.docx">
+        </div>
+        <div>
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+            <button type="button" >button</button>
+        </div>  
+        <div>
+            <label>hidden field</label>
+            <input type="hidden" name="hidden_field" value="hidden_value">
+    </fieldset>
+    
+
+    </form>
+
+</body>
+</html>
