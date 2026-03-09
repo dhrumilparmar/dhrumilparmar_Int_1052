@@ -1,0 +1,93 @@
+
+
+#intro::first-letter{
+    font-size: 50px;
+    color: red;
+}
+
+#breakingnews::first-line{
+    font-size: 30px;
+    color: blue;
+    background-color: yellow;
+}
+#note:before{
+    content: "NOTE :";
+    color: red;
+}
+#copyright:before{
+    content: "all right reserved 2026";
+}
+
+#tasklist li:nth-child(even) {
+    background-color: rgb(189, 226, 238);
+}
+#tasklist li:nth-child(odd) {
+    background-color: rgb(212, 238, 246);
+}
+
+#tasklist li:nth-child(2) {
+    font-weight: bold;
+}
+
+#tasklist li:last-child {
+    color: blue;
+}
+
+#tasklist li:first-child {
+    color: red;
+}
+a:active{
+    color:red;
+}
+a:hover {
+    color: rgb(121, 118, 176);
+    text-decoration: underline;
+}
+a[href^="https"]{
+    font-weight: bold;
+}
+
+img[src$=".jpg"] {
+    border: 3px solid rgb(168, 247, 253);
+}
+input[placeholder*="Search for something..."] {
+    background-color: rgb(67, 197, 233);
+}
+
+
+.container p {
+    font-size: 16px;
+    color: blue;
+}
+
+.container > p {
+    font-size: 18px;
+    color: green;
+}
+
+h4 + p {
+    font-size: 20px;
+    color: red;
+}
+
+h3 ~ p {
+    font-size: 22px;
+    color: purple;
+}
+
+input:focus{
+    border-color: blue;      
+    background-color:rgb(191, 244, 238); 
+}
+
+.checkboxes input[type="checkbox"]:checked + label{
+    color: green;   
+    font-weight: bold; 
+}
+
+.checkboxes{
+    font-size: 18px;
+}
+.container {
+    font-size: 16px;
+}
