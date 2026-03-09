@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Times New Roman, Times, serif;
+    background: linear-gradient(to bottom, #cceafd 0%, #e3f2fd 100%);
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 20px;
+        color: rgb(1, 77, 164);
+
+}
+
+.intro {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    font-style: italic;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+        color: rgb(1, 77, 164);
+
+}
+
+.special-text {
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.0em;
+    color: rgb(1, 77, 164);
+    letter-spacing: 10px;
+    text-shadow: 2px 2px 5px #0069ab;
+    border-bottom: 2px solid #051cec;
+    margin: 0 20px 30px 20px;
+    padding-bottom: 5px;
+    background: transparent;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 30px;
+    color: rgb(1, 77, 164);
+}
+
+.overflow-demo {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.box {
+    width: 260px;
+    height: 100px;
+    border: 2px solid #046eb5;
+    background: #f8f8f8;
+    margin-bottom: 20px;
+    padding: 8px;
+    font-size: 1em;
+    overflow: visible;
+        color: rgb(1, 77, 164);
+
+}
+
+.box.clip {
+    overflow: hidden;
+}
+
+.box.scroll {
+    overflow: scroll;
+}
+
+.box.auto {
+    overflow: auto;
+}
