@@ -1,0 +1,86 @@
+body{
+    background-image: url("images/dRK.jpg");
+    background-size: cover;
+    
+}
+
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    left: 300px;
+    top: 100px;
+}
+
+#box7{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(228, 224, 95);
+    position: absolute;
+    left: 300px;
+    top: 100px;
+}
+#box1:hover{
+    z-index:1;
+
+    }
+p{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+#box2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(7, 160, 68);
+    position: absolute;
+    transform: skewX(48deg);
+    right: 500px;
+    top: 100px;
+}
+#box2:hover{
+        transform: skewX(0deg);
+    }
+#box3{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(233, 43, 100);
+    position: sticky;
+    left: 100px;
+    top: 100px;
+}
+#box4{
+    width: 150px;
+    height: 100px;
+    background-color: rgb(63, 8, 215);
+    position: fixed;
+    right: 200px;
+    bottom: 100px;
+    
+}
+#box4:hover{
+    background-color: rgb(228, 224, 95);
+    
+    }
+
+#box5{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(138, 214, 24);
+    position: static;
+    left: 100px;
+    top: 100px;
+}
+
+#box6{
+    z-index: 1;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(114, 230, 195);
+    position: sticky;
+    left: 100px;
+    bottom: 100px;
+}
